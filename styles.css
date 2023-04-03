@@ -1,0 +1,90 @@
+:root {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-size: clamp(2rem, 1rem + 3vw, 5.6rem);
+    margin-top: 6.5rem;
+}
+
+p {
+    font-size: 2.3rem;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 30%;
+    color: white;
+}
+
+fieldset {
+   border: 0.3rem solid dodgerblue; 
+}
+
+legend {
+    border: 1px solid dodgerblue;
+    font-size: 2.0rem;
+    padding: 1.0rem;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+}
+
+textarea, input {
+    background: none;
+    font-family: Arial, Helvetica, sans-serif;
+            border: none;
+            border-bottom: 1px solid white;
+            outline: none;
+            color: white;
+            font-size: 1.7rem;
+            width: 100%;
+            letter-spacing: 0.1rem;
+}
+
+label {
+    font-size: 2.5rem;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+ background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+ width: 100%;
+ border: none;
+ padding: 1.5rem;
+ color: white;
+ font-size: 2.2rem;
+ cursor: pointer;
+ border-radius: 1.0rem;
+}
+button:hover{
+ background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+}
+
+    @media (max-width: 500px) {
+        .box {
+            width: 60%;
+            
+        }
+        h1 {
+            margin-top: 30px;
+        }
+    }

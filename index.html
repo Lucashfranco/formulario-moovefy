@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificar Base64 e Contar Consoantes e Vogais</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="ico/avatar.ico" type="image/x-icon">
+  </head>
+  <body>
+    <h1>Decodificar Base64 e Contar Consoantes e Vogais</h1>
+
+   <!-- Neste formulário criamos 2 campos de entrada, e também foi íncluido 2 botões para decodificar o código e contar as vogais e consoantes do texto. E um elemento p para exibir os resultados  -->
+
+    <form action="" method="">
+        <div class="box">
+        <fieldset>
+            <legend><b>Formulário</b></legend>
+            <br>
+      <label for="base64">Insira um código em Base64:</label>
+      <br><br><br>
+      <input type="text" id="base64" name="base64">
+      
+    <br><br>
+      <button type="button" id="decodeBtn">Decodificar</button><br><br>
+      <button type="button" id="clearBtn">Limpar</i></button><br><br><br>
+      <label for="text">Insira um texto:</label><br><br>
+      <input type="text" name="text" id="text">
+      <br><br>  
+      <button type="button" id="countBtn">Contar Consoantes e Vogais</button><br>
+      <p id="result"></p>
+    </fieldset>
+    </form>
+</div>
+<script src="script.js"></script>
+  </body>
+</html>
